@@ -1,0 +1,314 @@
+ [
+   {
+"id": 53,
+"question": "Was aus der folgenden Auswahl ist kein Operator?",
+"options": {
+"A": "+",
+"B": "==",
+"C": "int",
+"D": "&&"
+},
+"correctAnswer": "C",
+"explanation": "int ist ein Datentyp und kein Operator. Operatoren führen Berechnungen oder Vergleiche aus."
+},
+{
+"id": 54,
+"question": "Was ist ein Inkrement?",
+"options": {
+"A": "Wert wird halbiert",
+"B": "Wert wird um 1 erhöht",
+"C": "Wert wird gelöscht",
+"D": "Wert wird verglichen"
+},
+"correctAnswer": "B",
+"explanation": "Ein Inkrement erhöht den Wert einer Variable um 1, meist mit ++ (z. B. x++)."
+},
+{
+"id": 55,
+"question": "Was ist ein Dekrement?",
+"options": {
+"A": "Wert wird um 1 verringert (x--)",
+"B": "Wert wird verdoppelt (x = x * 2)",
+"C": "Wert wird gelöscht",
+"D": "Wert wird gespeichert"
+},
+"correctAnswer": "A",
+"explanation": "Ein Dekrement verringert den Wert einer Variable um 1 mit dem Operator -- (z. B. x--)."
+},
+{
+"id": 56,
+"question": "Was ist ein Vorzeichenoperator?",
+"options": {
+"A": "Operator, der zwei Werte addiert (x + y)",
+"B": "Operator, der das Vorzeichen eines Wertes festlegt oder ändert (+x, -x)",
+"C": "Operator für die Verarbeitung von Strings (\"Text\" + \"Text\")",
+"D": "Operator zur Steuerung von Schleifen (for, while)"
+},
+"correctAnswer": "B",
+"explanation": "Vorzeichenoperatoren bestimmen oder ändern das Vorzeichen eines Wertes, z. B. +x oder -x."
+},
+{
+"id": 57,
+"question": "Welches ist kein Rechenoperator?",
+"options": {
+"A": "+",
+"B": "-",
+"C": "!=",
+"D": "-"
+},
+"correctAnswer": "C",
+"explanation": "!= ist ein Vergleichsoperator und kein Rechenoperator."
+},
+{
+"id": 58,
+"question": "Was sind relationale Operatoren?",
+"options": {
+"A": "Operatoren für Berechnungen (+, -, , /)",
+"B": "Operatoren zur Steuerung von Schleifen (for, while)",
+"C": "Operatoren zum Vergleichen von Werten (>, <, ==, !=, >=, <=)",
+"D": "Operatoren für die Verarbeitung von Texten (+ bei Strings)"
+},
+"correctAnswer": "C",
+"explanation": "Relationale Operatoren werden verwendet, um zwei Werte miteinander zu vergleichen. Das Ergebnis ist immer ein boolescher Wert (true oder false). Sie kommen häufig in Bedingungen wie if-Abfragen oder Schleifen vor. Beispiele sind == (gleich), != (ungleich), > (größer) oder <= (kleiner oder gleich)."
+},
+{
+"id": 59,
+"question": "Welches aus der folgenden Auswahl ist kein logischer Operator?",
+"options": {
+"A": "&&",
+"B": "||",
+"C": "!",
+"D": "+"
+},
+"correctAnswer": "D",
+"explanation": "+ ist ein Rechenoperator und kein logischer Operator."
+},
+{
+"id": 60,
+"question": "Welcher der folgenden Operatoren bedeutet „nicht“?",
+"options": {
+"A": "&&",
+"B": "||",
+"C": "!",
+"D": "=="
+},
+"correctAnswer": "C",
+"explanation": "Der Operator ! ist der logische NOT-Operator und kehrt einen booleschen Wert um. Aus true wird false und umgekehrt. Beispiel: !true ergibt false. Er wird häufig in Bedingungen eingesetzt, um das Gegenteil einer Aussage zu prüfen."
+},
+{
+"id": 61,
+"question": "Welcher der folgenden Operatoren bedeutet „und“?",
+"options": {
+"A": "||",
+"B": "&&",
+"C": "!=",
+"D": "="
+},
+"correctAnswer": "B",
+"explanation": "&& bedeutet logisches UND. Beide Bedingungen müssen wahr sein, damit das Gesamtergebnis true ergibt."
+},
+{
+"id": 62,
+"question": "Welcher der folgenden Operatoren bedeutet „oder“?",
+"options": {
+"A": "&&",
+"B": "||",
+"C": "==",
+"D": "!"
+},
+"correctAnswer": "B",
+"explanation": "|| bedeutet logisches ODER. Eine der beiden Bedingungen reicht aus, damit das Ergebnis true ist."
+},
+{
+"id": 63,
+"question": "Welcher der folgenden Operatoren bedeutet „ungleich“?",
+"options": {
+"A": "==",
+"B": "!=",
+"C": "=",
+"D": "<="
+},
+"correctAnswer": "B",
+"explanation": "!= prüft, ob zwei Werte unterschiedlich sind."
+},
+{
+"id": 64,
+"question": "Welcher der folgenden Operatoren bedeutet „gleich“?",
+"options": {
+"A": "=",
+"B": "!=",
+"C": "==",
+"D": ">="
+},
+"correctAnswer": "C",
+"explanation": "== vergleicht zwei Werte auf Gleichheit."
+},
+{
+"id": 65,
+"question": "Was ist eine einfache Zuweisung?",
+"options": {
+"A": "Vergleich zweier Werte",
+"B": "Speicherung eines Wertes in einer Variable mit =",
+"C": "Addition zweier Zahlen",
+"D": "Schleifensteuerung"
+},
+"correctAnswer": "B",
+"explanation": "Mit = wird einer Variablen ein Wert zugewiesen."
+},
+{
+"id": 66,
+"question": "Welches aus der folgenden Liste ist keine kombinierte Zuweisung?",
+"options": {
+"A": "+= (z. B. x += 5 → entspricht x = x + 5)",
+"B": "-= (z. B. x -= 3 → entspricht x = x - 3)",
+"C": "= (z. B. x *= 2 → entspricht x = x * 2)",
+"D": "== (prüft, ob zwei Werte gleich sind)"
+},
+"correctAnswer": "D",
+"explanation": "Kombinierte Zuweisungen verbinden eine Rechenoperation mit einer Zuweisung, z. B. +=, -= oder *=. Dabei wird ein Wert berechnet und direkt gespeichert. Der Operator == ist keine Zuweisung, sondern ein Vergleichsoperator, der prüft, ob zwei Werte gleich sind."
+},
+{
+"id": 67,
+"question": "Was ist in einer Variable ein Bezeichner?",
+"options": {
+"A": "der gespeicherte Wert (z. B. 5 oder \"Hallo\")",
+"B": "der Datentyp (z. B. int, String)",
+"C": "der Name der Variable (z. B. alter, name)",
+"D": "der Operator (z. B. +, =)"
+},
+"correctAnswer": "C",
+"explanation": "Der Bezeichner ist der Name einer Variable, über den man im Programm auf sie zugreifen kann. Er wird vom Programmierer selbst vergeben, z. B. int alter = 20; – hier ist alter der Bezeichner. Über diesen Namen kann der gespeicherte Wert gelesen oder verändert werden. Bezeichner müssen bestimmten Regeln folgen, z. B. dürfen sie nicht mit einer Zahl beginnen und keine reservierten Schlüsselwörter wie int oder class sein."
+},
+{
+"id": 68,
+"question": "Was muss in einer Variable mit einem Unicode-Buchstaben beginnen?",
+"options": {
+"A": "Datentyp (int, String)",
+"B": "Wert (10, \"Hallo\")",
+"C": "Bezeichner / Variablenname (z. B. name, zahl, äpfel)",
+"D": "Methode (main(), print())"
+},
+"correctAnswer": "C",
+"explanation": "Ein Unicode-Buchstabe ist ein Zeichen aus dem internationalen Zeichensatz, also nicht nur a–z, sondern auch z. B. ä, ö, ü oder Zeichen aus anderen Sprachen. In Java muss ein Variablenname (Bezeichner) mit einem Buchstaben, einem Unterstrich _ oder einem solchen Unicode-Zeichen beginnen, aber nicht mit einer Zahl. Beispiel: int größe = 10; ist erlaubt, int 1zahl = 10; dagegen nicht."
+},
+{
+"id": 69,
+"question": "Was ist ein Unicode-Buchstabe?",
+"options": {
+"A": "Unicode umfasst alle Zeichen der englischen Sprache",
+"B": "Unicode ist ein internationaler Zeichensatz (z. B. auch ä, ö, ü)",
+"C": "Im Unicode sind alle Symbole von Zahlencodes enthalten",
+"D": "Unicode ist wie ein Wörterbuch für Java Code"
+},
+"correctAnswer": "B",
+"explanation": "Unicode ist ein weltweit standardisierter Zeichensatz, der Texte aus nahezu allen Schriftsystemen digital darstellbar macht. Er umfasst über 100.000 Zeichen aus vielen Sprachen sowie Symbole und Emojis. Beispiele sind ä, кириллица, 汉字 oder 😊. Ziel von Unicode ist eine einheitliche Textdarstellung weltweit unabhängig von Sprache oder Plattform."
+},
+{
+"id": 70,
+"question": "Was ist ein Schlüsselwort im Java-Code?",
+"options": {
+"A": "selbst vergebene Variablenname",
+"B": "reserviertes Wort mit fester Bedeutung in Java",
+"C": "aufrufbare Methodenbezeichnungen",
+"D": "Triggerworte, wo das Programm startet"
+},
+"correctAnswer": "B",
+"explanation": "Schlüsselwörter (Keywords) sind reservierte Wörter in Java mit fester Bedeutung, die den Aufbau und das Verhalten eines Programms steuern und nicht als Variablennamen verwendet werden dürfen. Beispiele sind class, int, public oder if und else."
+},
+{
+"id": 71,
+"question": "Was bedeutet CamelCase?",
+"options": {
+"A": "CamelCase ist wie ASCII ein Zeichensystem",
+"B": "Wörter werden ohne Trennung geschrieben, jedes neue Wort beginnt groß",
+"C": "Entwickler mit Fehlern im Code sind Kamele (CamelCase)",
+"D": "In Java gibt es Dialekte, einer davon heißt CamelCase"
+},
+"correctAnswer": "B",
+"explanation": "CamelCase ist eine Schreibweise, bei der mehrere Wörter ohne Leerzeichen aneinandergereiht werden und jedes neue Wort mit einem Großbuchstaben beginnt. Sie wird genutzt, um Namen im Code besser lesbar zu machen."
+},
+{
+"id": 72,
+"question": "Wann muss CamelCase benutzt werden?",
+"options": {
+"A": "Immer, wenn man eine Klasse bestimmt",
+"B": "Bei Variablen- und Methodennamen",
+"C": "Wenn man im entsprechenden Java-Dialekt programmiert",
+"D": "Nur in Kommentaren"
+},
+"correctAnswer": "B",
+"explanation": "In Java wird CamelCase bei Variablen- und Methodennamen verwendet, um den Code lesbarer und einheitlicher zu gestalten. Besonders üblich ist lowerCamelCase wie vorName oder gesamtPreis. Es ist eine Konvention, keine zwingende technische Regel."
+},
+{
+"id": 73,
+"question": "Was ist eine Konstante in Java?",
+"options": {
+"A": "Eine Variable, deren Wert sich während der Programmausführung ändern kann",
+"B": "Eine Variable, deren Wert nach der ersten Zuweisung nicht mehr verändert werden darf",
+"C": "Eine Struktur zur wiederholten Ausführung von Code",
+"D": "Eine spezielle Methode zur Berechnung fester Werte"
+},
+"correctAnswer": "B",
+"explanation": "Eine Konstante in Java ist eine Variable, deren Wert nach der einmaligen Zuweisung nicht mehr verändert werden kann. Dafür wird das Schlüsselwort final verwendet. Sobald ein Wert gesetzt wurde, ist die Variable fest und kann im weiteren Programmverlauf nicht mehr überschrieben werden."
+},
+{
+"id": 74,
+"question": "Was muss in einer Variable groß geschrieben werden?",
+"options": {
+"A": "Der Datentyp",
+"B": "Variablenname immer",
+"C": "Konstanten (final Variablen)",
+"D": "die Methoden wird groß geschrieben"
+},
+"correctAnswer": "C",
+"explanation": "In Java werden nur Konstanten (mit final definierte, unveränderbare Variablen) komplett groß geschrieben, z. B. MAX_VALUE oder MIN_SIZE. Diese Schreibweise mit Großbuchstaben und Unterstrichen dient als Konvention, um feste Werte im Code klar erkennbar zu machen. Normale Variablen werden in lowerCamelCase geschrieben."
+},
+{
+"id": 75,
+"question": "Was ist eine Klasse?",
+"options": {
+"A": "Die Bezeichnung einer Variable",
+"B": "Ein Bauplan für Objekte",
+"C": "Klassen initialisieren Datentypen",
+"D": "Eine kopfgesteuerte Schleife"
+},
+"correctAnswer": "B",
+"explanation": "Eine Klasse ist in Java ein Bauplan für Objekte. Sie legt fest, welche Eigenschaften (Attribute) und Verhaltensweisen (Methoden) ein Objekt haben kann. Aus einer Klasse können beliebig viele Objekte erstellt werden, die diese Struktur verwenden, aber eigene Werte besitzen. Klassen sind ein zentrales Konzept der objektorientierten Programmierung."
+},
+{
+"id": 76,
+"question": "Welches aus der folgenden Auswahl ist keine Klasse?",
+"options": {
+"A": "String",
+"B": "Scanner",
+"C": "int",
+"D": "ArrayList"
+},
+"correctAnswer": "C",
+"explanation": "int ist ein primitiver Datentyp und keine Klasse. String, Scanner und ArrayList sind dagegen Klassen der Java-Standardbibliothek und bieten umfangreiche Funktionen über Methoden."
+},
+{
+"id": 77,
+"question": "Welche Bausteine gehören in eine Klasse?",
+"options": {
+"A": "die Variablen",
+"B": "Der Scanner und die Methoden",
+"C": "Variablen und Methoden",
+"D": "Dialektbenennung, Methode und Schleifen"
+},
+"correctAnswer": "C",
+"explanation": "Eine Klasse in Java besteht im Kern aus Attributen (Variablen) und Methoden. Die Attribute beschreiben den Zustand eines Objekts, also seine Eigenschaften. Die Methoden beschreiben das Verhalten eines Objekts. Zusammen bilden sie den Bauplan für Objekte. Konstruktoren können zusätzlich enthalten sein, gehören aber nicht zu den grundlegenden Bausteinen."
+},
+{
+"id": 78,
+"question": "Welches aus der folgenden Auswahl ist eine Deklaration?",
+"options": {
+"A": "Datentyp Variablenname = Wert;",
+"B": "Variablenname = 5;",
+"C": "int x;",
+"D": "8 = Variablenname;"
+},
+"correctAnswer": "C",
+"explanation": "Eine Deklaration legt eine Variable im Programm an, indem nur der Datentyp und der Variablenname angegeben werden. Es wird noch kein Wert zugewiesen. Beispiel: int x; Erst mit einer Zuweisung (int x = 5;) wird daraus eine Initialisierung."
+}
+]
